@@ -88,9 +88,7 @@ class='anima1'
      to { background-position: -528px; }
 }
 
-
 ***** js.js. *****
 
 class='anima2'
 class='anima3'
-
