@@ -41,6 +41,7 @@ function loop() {
 movefundo();
 movejogador();
 moveinimigo1();
+moveinimigo2();
 
 } // Fim da função loop()
 
@@ -97,3 +98,14 @@ function movejogador() {
                 
             }
     } //Fim da fun��o moveinimigo1()
+
+    function moveinimigo2() {
+        posicaoX = parseInt($("#inimigo2").css("left"));
+	    $("#inimigo2").css("left",posicaoX-3);
+				
+		if (posicaoX<=0) {
+			
+		$("#inimigo2").css("left",775);
+					
+		}
+    } // Fim da fun��o moveinimigo2()
