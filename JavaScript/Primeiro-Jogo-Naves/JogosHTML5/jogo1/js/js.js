@@ -9,7 +9,7 @@ function start() { // Inicio da função start()
     $("#fundoGame").append("<div id='placar'></div>");
     $("#fundoGame").append("<div id='energia'></div>");
 
-} // Fim da função start
+
 
 //Principais variáveis do jogo
 
@@ -26,7 +26,7 @@ var TECLA = {
     W: 87,
     S: 83,
     D: 68
-    }
+}
     
 jogo.pressionou = [];
 
@@ -391,6 +391,37 @@ function energia() {
         $("#energia").css("background-image", "url(imgs/energia0.png)");
         
         //Game Over
+        gameOver();
     }
 
 } // Fim da função energia()
+
+//Função GAME OVER
+function gameOver() {
+	fimdejogo=true;
+	musica.pause();
+	somGameover.play();
+	
+	window.clearInterval(jogo.timer);
+	jogo.timer=null;
+	
+	$("#jogador").remove();
+	$("#inimigo1").remove();
+	$("#inimigo2").remove();
+	$("#amigo").remove();
+	
+	$("#fundoGame").append("<div id='fim'></div>");
+	
+	$("#fim").html("<h1> Game Over </h1><p>Sua pontuação foi: " + pontos + "</p>" + "<div id='reinicia' onClick=reiniciaJogo()><h3>Jogar Novamente</h3></div>");
+} // Fim da função gameOver();
+
+} // Fim da função start
+
+//Reinicia o Jogo
+		
+function reiniciaJogo() {
+	somGameover.pause();
+	$("#fim").remove();
+	start();
+	
+} //Fim da fun��o reiniciaJogo

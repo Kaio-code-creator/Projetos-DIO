@@ -1,6 +1,6 @@
 ***** js.js *****
 
-//Fun��o GAME OVER
+//Função GAME OVER
 	function gameOver() {
 	fimdejogo=true;
 	musica.pause();
@@ -17,7 +17,7 @@
 	$("#fundoGame").append("<div id='fim'></div>");
 	
 	$("#fim").html("<h1> Game Over </h1><p>Sua pontua��o foi: " + pontos + "</p>" + "<div id='reinicia' onClick=reiniciaJogo()><h3>Jogar Novamente</h3></div>");
-	} // Fim da fun��o gameOver();
+	} // Fim da função gameOver();
 
 
 
