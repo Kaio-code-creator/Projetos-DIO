@@ -15,12 +15,12 @@ var colisao1 = ($("#jogador").collision($("#inimigo1")));
 	$("#inimigo1").css("top",posicaoY);
 	}
 
-} //Fim da função colisao()
+} //Fim da funï¿½ï¿½o colisao()
 
 
 ***** js.js *****
 
-//Explosão 1
+//ExplosÃ£o 1
 function explosao1(inimigo1X,inimigo1Y) {
 	$("#fundoGame").append("<div id='explosao1'></div");
 	$("#explosao1").css("background-image", "url(imgs/explosao.png)");
@@ -39,7 +39,7 @@ function explosao1(inimigo1X,inimigo1Y) {
 			
 		}
 		
-	} // Fim da função explosao1()
+	} // Fim da funï¿½ï¿½o explosao1()
 
 
 **** estilos.css *****
