@@ -1,0 +1,14 @@
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\bin\Debug\net8.0\Projeto rpg POO.exe
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\bin\Debug\net8.0\Projeto rpg POO.deps.json
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\bin\Debug\net8.0\Projeto rpg POO.runtimeconfig.json
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\bin\Debug\net8.0\Projeto rpg POO.dll
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\bin\Debug\net8.0\Projeto rpg POO.pdb
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\Projeto rpg POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\Projeto rpg POO.AssemblyInfoInputs.cache
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\Projeto rpg POO.AssemblyInfo.cs
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\Projeto rpg POO.csproj.CoreCompileInputs.cache
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\Projeto rpg POO.dll
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\refint\Projeto rpg POO.dll
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\Projeto rpg POO.pdb
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\Projeto rpg POO.genruntimeconfig.cache
+C:\Users\kaioa\OneDrive\Rodrigo\Projeto rpg POO\obj\Debug\net8.0\ref\Projeto rpg POO.dll
