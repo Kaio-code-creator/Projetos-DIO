@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(208, 255, 239);
+    background-color: black;
 }
 
 .main-game {
@@ -48,5 +48,5 @@ body {
 }
 
 .selected {
-    opacity: 0.8;
+    opacity: 0.6;
 }
